@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>練習</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        section {
+            border:  2px solid#333;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        
+        article {
+            border: 1px solid #999;
+            padding: 12px;
+            margin-bottom: 12px;
+        }
+        .card {
+            border: 2px solid #ccc;
+            padding:16px;
+            margin-bottom:16px;
+            border-radius: 10px;
+            background: #f9f9f9;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        nav ul {
+             display: flex;
+             justify-content: center;
+             gap: 16px;      /* 間隔 */
+             list-style: none;
+              padding: 0;
+              margin: 0;
+
+        }
+
+        nav a {
+             text-decoration: none;
+            color: #333;
+        }
+        nav a:focus {
+             outline: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <header id="home">
+        <h1>筋トレメモ</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">ホーム</a></li>
+            <li><a href="#oshiri">お尻トレーニング</a></li>
+            <li><a href="#">トレーニング2</a></li>
+            <li><a href="#">トレーニング3</a></li>
+            <li><a href="#food">食事管理</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2 id="oshiri">お尻トレーニング</h2>
+            <article class="card">
+                <h3>ベンチディップ</h3>
+                <p>ベンチを使うトレーニングでヒップの中心に負荷を与える</p>
+            </article>
+
+            <article class="card">
+                <h3>立位キックバック</h3>
+                <p>立った状態で手すりを持ち、ゴムを使い外側に蹴る。お尻の左右上部に負荷を与える</p>
+            </article>
+            
+            <article class="card">
+                <h3>カニ歩きするやつ</h3>
+                <p>ゴムを膝上につけ、やや前傾、膝を少し曲げ左右に歩行する。左右の側面に負荷を与える</p>
+            </article>
+        </section>
+        <section>
+            <h2 id="food">食事管理</h2>
+            <article class="card">
+                <h3>オールブラン</h3>
+                <p>食物繊維を意識して摂取</p>
+            </article>
+            <article class="card">
+                <h3>鶏肉</h3>
+                <p>タンパク質補給</p>
+            </article>
+        </section>
+        <section>
+            <h2 id="contact">お問い合わせ</h2>
+            <p>お問い合わせはこちらから</p>
+        </section>
+    </main>
+    <footer>
+        <p>フッター</p>
+    </footer>
+</body>
+</html>
